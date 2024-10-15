@@ -10,6 +10,7 @@
     margin: 0 auto;
     width: 1200px;
     justify-content: center;
+    padding-top: 60px;
     
     
 
@@ -27,7 +28,7 @@
     border: 2px solid black;
     padding: 25px 40px;
     gap: 25px;
-    margin-top: 60px;
+   
  
 }
 .ee{
