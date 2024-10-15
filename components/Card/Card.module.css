@@ -1,0 +1,42 @@
+
+.item{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(33.33% - 20px); 
+    box-sizing: border-box;
+    max-width: calc(33.33% - 20px);
+    margin: 20px 0;
+  
+}
+
+.item img{
+    aspect-ratio: 1;
+}
+
+
+.item p{
+font-size: 15px;
+font-weight: 450;
+}
+
+.item_q{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.item_q p{
+    font-size: 32px;
+    color:  rgba(0, 9, 234, 1);
+    font-weight: 600;
+}
+
+.item_q button{
+    font-size: 20px;
+    color: white;
+    background-color:  rgba(0, 9, 234, 1) ;
+    display: inline-block;
+    padding: 10px 15px;
+}

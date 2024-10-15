@@ -1,0 +1,63 @@
+
+
+.sec{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.block{
+    margin: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.block img{
+   max-width: 500px;
+  
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+    
+}
+.name{
+    font-size: 32px ;
+    text-align: center;
+    font-weight: 550;
+    width: 700px;
+    
+}
+.opis{
+    font-size: 18px ;
+    text-align: left;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.price_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.price{
+    font-size: 32px;
+   color: rgba(0, 9, 234, 1);
+   font-weight: 600;
+
+}
+.price_block button{
+    color: white;
+    font-size: 20px;
+    height: 55px;
+    width: 300px;
+    background-color:  rgba(0, 9, 234, 1);
+    border: none;
+    border-radius: 10px;
+}

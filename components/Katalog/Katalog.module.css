@@ -1,0 +1,67 @@
+.katalog{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  
+}
+h5{
+    font-size: 40px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.kateg{
+    display: flex;
+    gap: 20px;
+}
+.kateg p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ .kk{
+    background-color:  rgba(0, 9, 234, 1);
+    color: white;
+    box-shadow: none;
+    
+    font-size: 16px;
+}
+
+.k{
+    font-size: 16px;
+  background-color: white;
+ 
+    color:  rgba(0, 9, 234, 1);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.238);
+}
+
+
+.list{
+    display: flex;
+    justify-content: space-between;
+ 
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+
+
+.qq {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+   
+}
+
+.more {
+    padding: 10px 20px;
+    background-color: #f9f9f9a1;
+    color:  rgba(0, 9, 234, 1) ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
